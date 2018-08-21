@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: borderbox;
+  background: blue;
+}
+nav {
+  display: flex;
+  width: 750px;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 1px;
+  font-family: "aktiv-grotesk", sans-serif;
+  position: relative;
+  left: 30px;
+  padding-left: 20%;
+}
+.nav-link {
+  cursor: pointer;
+}
+#logo1 {
+  padding-top: 20px;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+#logtxt {
+  color: white;
+  padding-top: 20px;
+}
+.brand {
+  justify-content: space-between;
+  padding-top: 30px;
+}
+#btnsub {
+  height: 40px;
+  width: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  background: blue;
+  border-radius: 30%;
+  color: white;
+  padding-top: 1px;
+
+  padding-top: 0;
+}
+.titles {
+  color: white;
+  padding-left: 500px;
+  padding-right: 500px;
+  font-size: 40px;
+}
+#exp {
+  color: blue;
+}
+#explr {
+  margin-left: 600px;
+  height: 80px;
+  width: 250px;
+  border: 1px solid rgb(255, 255, 255);
+  background: white;
+  border-radius: 30%;
+  color: rgb(255, 255, 255);
+}
+#main {
+  color: white;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-size: 30px;
+}
+#logo2 {
+  height: 60px;
+  widows: 60px;
+  padding-left: 600px;
+}
+btnsub:hover {
+  background: white;
+}
+.mainflex {
+  display: flex;
+  justify-content: center;
+}
